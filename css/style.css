@@ -1,0 +1,684 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-content {
+    max-width: 978px;
+    margin: 0 auto;
+}
+
+.section-line {
+    border-bottom: 1px solid rgba(208, 212, 216, .5);
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #ec1313;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.title__black {
+    color: #000000;
+}
+
+.section__container {
+    padding-top: 50px;
+}
+
+.header__top {
+    background-image: url('../images/fontext.jpg');
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+
+.fon__text {
+    background-image: url('../images/1625267409_39-kartinkin-com-p-velikaya-otechestvennaya-voina-fon-krasivi-40.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+
+.header__top-inner {
+    border-bottom: none;
+    display: flex;
+    max-width: 1500px;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 100px;
+    /* margin: 0 auto; */
+    padding-top: 40px;
+}
+
+.header__title {
+    max-width: 1500px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.973);
+    align-items: justify-content;
+}
+
+.header__text {
+    font-size: 30px;
+    line-height: 30px;
+    /* display: flex; */
+    white-space: wrap;
+    align-items: justify;
+    margin-bottom: -12px;
+}
+
+.name__text {
+    margin-top: 30px;
+}
+
+.name__text-inner {
+    font-weight: 900;
+    color: rgb(255, 0, 0);
+}
+
+b {
+    font-weight: 900;
+    color: black;
+}
+
+
+/* .header__text::after,
+.header__text::before {
+    content: "";
+    border-top: 2px solid #ECB84C;
+    width: 100%;
+} */
+
+.header__text::after {
+    margin-left: 30px;
+}
+
+.header__text::before {
+    margin-right: 80px;
+}
+
+.menu {
+    border-bottom: 1px solid rgba(208, 212, 216, .5);
+}
+
+.menu__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__list-link {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 24px 10px 20px;
+    color: #909090;
+    margin: 0 6px;
+    border-bottom: 4px solid transparent;
+    transition: all .5s;
+}
+
+.menu__list-link:hover {
+    color: #4E5665;
+    border-bottom: 4px solid #ECB84C;
+}
+
+.note {
+    padding-top: 0;
+    padding-bottom: 20px;
+    text-align: right;
+    text-indent: 15px;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.reason {
+    padding: 50px 0 0;
+}
+
+.reason__text {
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.reason__title {
+    margin-bottom: 22px;
+}
+
+.reason__link {
+    text-align: right;
+}
+
+.reason__link a {
+    font-weight: 700;
+    color: #ECB84C;
+    margin-bottom: 36px;
+}
+
+.reason__statistics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.reason__statistics-num {
+    color: #4E5665;
+    margin-top: 32px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.reason__statistics-text {
+    color: #909090;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.container__photo {
+    padding-top: 40px;
+    max-width: 1200px;
+}
+
+.photo__page {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* .photo__imge {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+} */
+
+.about {
+    padding: 80px 0 0;
+}
+
+.photo {
+    padding: 80px 0;
+}
+
+.photo__title {
+    margin-bottom: 43px;
+}
+
+.photo__text {
+    padding-bottom: 48px;
+    margin-bottom: 56px;
+    position: relative;
+}
+
+.before__footer {
+    background-image: url('../images/1625267403_57-kartinkin-com-p-velikaya-otechestvennaya-voina-fon-krasivi-58.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.footer__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__item {
+    width: 140px;
+}
+
+.footer__item--blog {
+    width: 300px;
+}
+
+.footer__item--company {
+    width: 300px;
+    padding-left: 250px;
+}
+
+.footer__item-title {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    color: #4E5665;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.footer__item-link {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 8px;
+}
+
+.footer__copy {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 19px;
+    color: #505050;
+}
+
+.menu__btn {
+    display: none;
+}
+
+.about__images-box img {
+    max-width: 100%;
+}
+
+@media(max-width: 1150px) {
+    .header__top-inner {
+        border-bottom: none;
+        display: flex;
+        max-width: 1000px;
+        flex-direction: column;
+        height: 100%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .footer__item--company {
+        width: 140px;
+        padding-left: 0;
+    }
+    .reason__text {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 1075px) {
+    .header__top-inner {
+        border-bottom: none;
+        display: flex;
+        max-width: 950px;
+        flex-direction: column;
+        height: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        padding-top: 1px;
+    }
+    .note {
+        padding-top: 0;
+        padding-bottom: 20px;
+        text-align: right;
+        text-indent: 15px;
+        font-size: 15px;
+        line-height: 14px;
+    }
+    .reason__text {
+        text-align: justify;
+        text-indent: 25px;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    .reason__title {
+        margin-bottom: 22px;
+        font-size: 15px;
+        color: #ec1313;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .photo__page {
+        width: 90%;
+    }
+    .footer__item--company {
+        width: 140px;
+        padding-left: 0;
+    }
+}
+
+@media(max-width: 950px) {
+    .header__title {
+        max-width: 600px;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 15px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.973);
+        align-items: justify-content;
+    }
+    .header__text {
+        font-size: 12px;
+        line-height: 15px;
+        /* display: flex; */
+        white-space: wrap;
+        align-items: justify;
+        margin-bottom: -12px;
+    }
+    .name__text {
+        margin-top: 15px;
+    }
+    .name__text-inner {
+        font-weight: 900;
+        color: rgb(255, 0, 0);
+    }
+    b {
+        font-weight: 900;
+        color: black;
+    }
+    .container__photo {
+        max-width: 800px;
+    }
+    /* .photo__page {
+        width: 80%;
+    } */
+    .note {
+        padding-top: 0;
+        padding-bottom: 20px;
+        text-align: right;
+        text-indent: 15px;
+        font-size: 15px;
+        line-height: 14px;
+    }
+    .reason__text {
+        text-align: justify;
+        text-indent: 25px;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    .reason__title {
+        margin-bottom: 22px;
+        font-size: 15px;
+        color: #ec1313;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}
+
+@media(max-width: 840px) {
+    .container__photo {
+        padding-top: 40px;
+        max-width: 700px;
+    }
+    .container {
+        padding-top: 40px;
+        max-width: 700px;
+    }
+    .header__title {
+        max-width: 700px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 15px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.973);
+        align-items: justify-content;
+    }
+    .header__text {
+        font-size: 15px;
+        line-height: 15px;
+        /* display: flex; */
+        white-space: wrap;
+        align-items: justify;
+        margin-bottom: -12px;
+    }
+    .name__text {
+        margin-top: 20px;
+    }
+    .name__text-inner {
+        font-weight: 900;
+        color: rgb(255, 0, 0);
+    }
+    b {
+        font-weight: 900;
+        color: black;
+    }
+    .container__photo {
+        max-width: 800px;
+    }
+    /* .photo__page {
+        width: 80%;
+    } */
+    .note {
+        padding-top: 0;
+        padding-bottom: 20px;
+        text-align: right;
+        text-indent: 15px;
+        font-size: 15px;
+        line-height: 14px;
+    }
+    .reason__text {
+        text-align: justify;
+        text-indent: 25px;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    .reason__title {
+        margin-bottom: 22px;
+        font-size: 15px;
+        color: #ec1313;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .about__item {
+        padding: 382px 0 70px;
+        background-position: top;
+        margin-bottom: 0;
+    }
+    .about__box {
+        margin: 0 auto;
+    }
+    .about__item:nth-child(even) {
+        background-position: top;
+    }
+    .about__dot {
+        display: none;
+    }
+    .about__images-box {
+        padding-top: 0;
+    }
+    .footer__items {
+        flex-wrap: wrap;
+    }
+    .footer__item {
+        width: 50px;
+    }
+}
+
+@media(max-width: 700px) {
+    .header__title {
+        max-width: 700px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 15px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.973);
+        align-items: justify-content;
+    }
+    .header__text {
+        font-size: 15px;
+        line-height: 15px;
+        /* display: flex; */
+        white-space: wrap;
+        align-items: justify;
+        margin-bottom: -12px;
+    }
+    .note {
+        padding-top: 0;
+        padding-bottom: 20px;
+        text-align: right;
+        text-indent: 15px;
+        font-size: 15px;
+        line-height: 14px;
+    }
+    .reason__text {
+        text-align: justify;
+        text-indent: 25px;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    .reason__title {
+        margin-bottom: 22px;
+        font-size: 15px;
+        color: #ec1313;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    /* .photo__page {
+        width: 90%;
+    } */
+    /* .menu {
+        position: relative;
+    }
+    .menu__btn {
+        display: block;
+        width: 40px;
+        cursor: pointer;
+        position: absolute;
+        right: 40px;
+        top: 10px;
+    }
+    .menu__btn span {
+        display: block;
+        margin-bottom: 10px;
+        background-color: #ECB84C;
+        height: 4px;
+    }
+    .menu__list {
+        display: none;
+        padding-top: 60px;
+        text-align: center;
+        border-bottom: 4px solid #ECB84C;
+    }
+    .menu__list-link {
+        display: block;
+        border-bottom: 4px solid #ECB84C;
+    }
+    .menu__list-link:hover {
+        border-bottom: 4px solid transparent;
+    } */
+}
+
+@media(max-width: 540px) {
+    .header__top-inner {
+        border-bottom: none;
+        display: flex;
+        max-width: 400px;
+        flex-direction: column;
+        height: 100%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .header__title {
+        max-width: 400px;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 15px;
+        font-weight: 100;
+        color: rgba(0, 0, 0, 0.973);
+        align-items: justify-content;
+    }
+    .header__text {
+        font-size: 10px;
+        line-height: 10px;
+        /* display: flex; */
+        white-space: wrap;
+        align-items: justify;
+        margin-bottom: -12px;
+    }
+    .note {
+        padding-top: 0;
+        padding-bottom: 20px;
+        text-align: right;
+        text-indent: 15px;
+        font-size: 15px;
+        line-height: 14px;
+    }
+    .reason__text {
+        text-align: justify;
+        text-indent: 25px;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    .reason__title {
+        margin-bottom: 22px;
+        font-size: 15px;
+        color: #ec1313;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    /* .photo__page {
+        width: 51%;
+    } */
+    /* .header__text {
+        display: none;
+    } */
+    /* .header__top-inner {
+        border-bottom: 2px solid #ECB84C;
+    } */
+    /* .header__top {
+        padding-top: 20px;
+    } */
+    /* .header__title {
+        font-size: 100px;
+    }
+    .title {
+        font-size: 24px;
+        line-height: 28px;
+    } */
+    /* body {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .reason__statistics {
+        display: block;
+    }
+    .reason__statistics-item {
+        margin-bottom: 35px;
+    } */
+}
+
+@media(min-width: 700px) {
+    .menu__list {
+        display: flex !important;
+    }
+}
